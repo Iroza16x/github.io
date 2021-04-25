@@ -41,7 +41,8 @@
 .main{
     background-color:whitesmoke;
     padding-top:90px;
-    padding-bottom:30px;
+    margin-bottom:0;
+    padding-bottom: 30px;
 }
 
 
