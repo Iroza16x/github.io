@@ -29,9 +29,58 @@
     .header-list a{
         margin-left: 15px;
     }
+    .introduce h1{
+        font-size: 38px;
+    }
+    
+    .introduce p{
+        font-size: 20px;
+    }
 
 }
 
 /*スマホ向けデザイン*/
 @media all and (max-width: 670px) {
+    .introduce{
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 75px;
+        border-bottom: 5px solid red;
+    }
+    .my-picture {
+        border-radius: 50%;
+        width:  250px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    
+    .introduce h1{
+        font-size: 28px;
+
+    }
+    
+    .introduce p{
+        font-size: 15px;
+    }
+
+    .profile{
+        margin-left: 0px;
+    }
+
+    .career{
+        margin-left: 0px;
+    }
+    
+    .core{
+        margin-left: 0px;
+    }
+
+    .IT{
+        margin-left: 0px;
+    }
+
+    .kisya{
+        margin-left: 0px;
+    }
 }
