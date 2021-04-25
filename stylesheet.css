@@ -1,0 +1,159 @@
+
+.container{
+    max-width: 1070px;
+    width: 100%;
+}
+
+
+
+
+.header{
+    background-color:#222222;
+    height:65px;
+    position: fixed;
+    top:0;
+    z-index: 10;
+    width:100%;
+}
+
+.header-list{
+    float: left;
+}
+
+.header-list a{
+    line-height: 65px;
+    text-decoration: none;
+    color: white;
+    display:inline-block;
+    margin-left:30px;
+    font-weight: bold;
+    font-family: udmincho,'ms mincho','ヒラギノ明朝 pro w3','hiragino mincho pro',serif;
+    transition: all 0.5s;
+}
+
+.header-list a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+
+
+
+.main{
+    background-color:whitesmoke;
+    padding-top:90px;
+}
+
+
+.introduce{
+    font-family: udmincho,'ms mincho','ヒラギノ明朝 pro w3','hiragino mincho pro',serif;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 160px;
+    padding-left: 100px;
+    padding-right: 75px;
+    border-bottom: 5px solid red;
+}
+.my-picture {
+    border-radius: 50%;
+    width:  360px;
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.introduce h1{
+    display: inline;
+    font-size: 68px;
+    letter-spacing: 2px;
+}
+
+.introduce p{
+    display: inline;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.profile{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.profile h2{
+    font-size:35px ;
+    font-family: udmincho,'ms mincho','ヒラギノ明朝 pro w3','hiragino mincho pro',serif;
+    font-weight: bold;
+    border-bottom: 1px solid #222222;
+    padding-bottom: 10px;
+}
+
+.profile h3{
+    margin-left: 15px;
+}
+
+.profile p{
+    margin-left:25px ;
+}
+
+.career{
+    margin-left: 40px;
+}
+
+.career h2{
+    font-size:35px ;
+    font-family: udmincho,'ms mincho','ヒラギノ明朝 pro w3','hiragino mincho pro',serif;
+    font-weight: bold;
+    border-bottom: 1px solid #222222;
+    padding-bottom: 10px;
+}
+
+.core{
+    margin-left: 40px;
+}
+
+.core h2{
+    font-size:35px ;
+    font-family: udmincho,'ms mincho','ヒラギノ明朝 pro w3','hiragino mincho pro',serif;
+    font-weight: bold;
+    border-bottom: 1px solid #222222;
+    padding-bottom: 10px;
+}
+
+.IT{
+    margin-left: 40px;
+}
+
+.IT h2{
+    font-size:35px ;
+    font-family: udmincho,'ms mincho','ヒラギノ明朝 pro w3','hiragino mincho pro',serif;
+    font-weight: bold;
+    border-bottom: 1px solid #222222;
+    padding-bottom: 10px;
+}
+
+.kisya{
+    margin-left: 40px;
+    margin-bottom:10px;
+}
+
+.kisya h2{
+    font-size:35px ;
+    font-family: udmincho,'ms mincho','ヒラギノ明朝 pro w3','hiragino mincho pro',serif;
+    font-weight: bold;
+    border-bottom: 1px solid #222222;
+    padding-bottom: 10px;
+}
+
+.kisya p{
+    margin:auto;
+}
+
+.kisya div{
+    margin-left: 15px;
+}
+
+
+
+.footer{
+    background-color:#222222;
+    height: 35px;
+}
