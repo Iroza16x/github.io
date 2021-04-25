@@ -26,6 +26,7 @@
 }
 
 @media all and (max-width: 840px){
+
     .header-list a{
         margin-left: 15px;
     }
@@ -41,6 +42,10 @@
 
 /*スマホ向けデザイン*/
 @media all and (max-width: 670px) {
+    .header-list a{
+        margin-left: 2px;
+    }
+    
     .introduce{
         padding-top: 50px;
         padding-left: 100px;
